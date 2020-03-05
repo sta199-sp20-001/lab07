@@ -1,0 +1,41 @@
+---
+title: "Lab 07 - Classification"
+subtitle: "Due: Friday, Mar 20 at 11:59pm"
+author: "Lab Group - Member 1, Member 2, Member 3, Member 4"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA, 
+                      message = FALSE, warning = FALSE,
+                      fig.height=6, fig.width = 9, fig.align = "center")
+```
+
+# Packages
+
+```{r packages}
+library(tidyverse)
+library(class)
+library(broom)
+library(usethis)
+```
+
+# Data
+
+```{r}
+wine <- read_csv("data/wine.csv")
+```
+
+# Setting random seed
+
+```{r create-indices}
+# DO NOT MODIFY!
+set.seed(03052020)
+indices <- sample(nrow(wine), 25) # 25 observations to test on
+```
+
+# Exercises
+
+## Exercise 1
+
+## Exercise 2
